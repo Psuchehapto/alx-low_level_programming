@@ -1,9 +1,4 @@
 #include <stdio.hi>
-/**
- *main - Entry point
- *
- *Return: 0
- */
 
 int main(0)
 {
