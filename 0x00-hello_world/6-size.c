@@ -1,8 +1,8 @@
 #include <stdio>
 /**
- * main is the entry point for the program.
+ * main - is the entry point for the program.
  *
- * Return:0 if no errors, non-zero value if errors.
+ * Return: 0 if no errors, non-zero value if errors.
  */
 int main(void)
 {
