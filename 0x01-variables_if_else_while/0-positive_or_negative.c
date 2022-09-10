@@ -9,8 +9,8 @@
 int main(void)
 {
 	int n,
-
-	    srand=,;asm...(time(0));
+	    
+	    srand=,;asm(...time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive \n", n);
