@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints out all the numbers between 00 and 99
  * with no two digits being the same
  *
@@ -9,7 +9,7 @@
 int main(void)
 {
 	int i, j;
-
+	
 	for (i = 48; i < 58; i++)
 	{
 		for (j = i; j < 58; j++)
@@ -27,11 +27,10 @@ int main(void)
 			else
 			{
 				putchar(',');
-				putchar(' ');
+				putchar('');
 			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
-
