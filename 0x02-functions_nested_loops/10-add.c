@@ -2,16 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - Check the code
- *
+ * add -prints add two numbers
+ * @i: print int i
+ * @k: print int k
  * Return: Always 0.
  */
 
-int main(void)
+int add(int i, int k)
 {
-	int n;
+	return (i + k);
 
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
 }
